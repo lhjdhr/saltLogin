@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="gb2312">
+<title>jQuery鼠标点击弹出粒子效果动画 - 站长素材</title>
+
+ 
+
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/clickspark.min.js"></script>
+<script>
+$(document).ready(function () {
+	$('html').clickSpark({
+		particleImagePath: 'particle-2.png',
+		particleCount: 30,
+		particleSpeed:5,
+		particleSize: 15,
+		particleRotationSpeed: 10
+	});
+});
+</script>
+
+<style>
+.bg-info {
+	padding: 1px 0 15px 15px;
+}
+
+.sparklingDiv {
+	border: 1px solid grey;
+	height: 60px;
+	width: 100px;
+}
+
+.sparklingDivContainer {
+	position: absolute;
+	top: 0px;
+	right: 30px;
+}
+</style>
+ 
+</head>
+<body>
+
+</body>
+</html>
